@@ -1,0 +1,27 @@
+{
+  "name": "gulasz101/gettype",
+  "description": "Small quality of live improvement providing gettype function that returns enum.",
+  "keywords": [
+    "php",
+    "gettype",
+    "enum",
+    "type",
+    "phpstan",
+    "analyzer"
+  ],
+  "type": "library",
+  "readme": "./README.md",
+  "license": "Apache-2.0",
+  "authors": [],
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "gulasz101\\": "src/"
+    },
+    "files": [
+      "./src/gettype.php"
+    ]
+  }
+}
